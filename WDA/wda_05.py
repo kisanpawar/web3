@@ -71,7 +71,7 @@ def main() -> None:
     for msg, pred, pr in zip(samples, preds, probs):
         p_spam = pr[list(labels).index("spam")] if "spam" in labels else pr[1]
         print(f"  Message: {msg!r}")
-        print(f"  -> {pred} (P_spam ~ {p_spam:.3f})\n")
+        print(f"  -> {pred} (P(spam)≈{p_spam:.3f})\n")
 
 
 if __name__ == "__main__":

@@ -76,7 +76,7 @@ def main() -> None:
             "Machine learning models learn patterns from training data "
             "and generalize to new examples in production."
         )
-        print("(Using demo text - you can run again and paste your own.)\n")
+        print("(Using demo text — you can run again and paste your own.)\n")
 
     cleaned = preprocess(raw)
     refs = [preprocess(r) for r in reference_corpus()]

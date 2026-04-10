@@ -1,8 +1,10 @@
 """
-WDA 2 — Scrape a public page (simulated social-style content): requests + BeautifulSoup.
-
-Uses https://quotes.toscrape.com/ (authors + quotes as stand-in for users + posts).
-
+Write a Python program to scrape data from an online social media website (or any public webpage for simulation purposes).
+    a. Send a request to a webpage using appropriate libraries (e.g., requests).
+    b. Parse the HTML content using a library such as BeautifulSoup.
+    c. Extract specific data such as user names, posts, or comments.
+    d. Store the extracted data in a structured format (e.g., list, JSON, or CSV).
+    e. Display the extracted data.
 Dependencies: pip install requests beautifulsoup4
 """
 
